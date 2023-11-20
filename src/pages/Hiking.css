@@ -1,0 +1,42 @@
+
+
+.card1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#hiking1{
+    background: url('../images/img9.avif');
+    width: 100%;
+    height: 270px;
+    margin: auto;
+}
+
+#hiking1 img{
+    width: 350px;
+    height: 200px;
+}
+
+@media screen and (max-width: 992px) {
+    #hiking1 {
+        
+        height: 600px
+    }
+  } 
+
+@media screen and (max-width: 768px) {
+    #hiking1 {
+      height: 600px
+    }
+  } 
+
+@media screen and (max-width: 592px) {
+    #hiking1 {
+      height: 600px
+    }
+  } 
